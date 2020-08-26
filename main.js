@@ -1,6 +1,6 @@
 (function(){
   window.setInterval(function(){
-    classget("button").forEach(btn => {
+    Array.prototype.forEach.call(classget("button"), btn => {
       btn.height = window.innerHeight / classget("button").length;
       btn.width = window.innerWidth;
     });
