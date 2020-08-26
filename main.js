@@ -9,7 +9,7 @@
   function idget(id) {
     return document.getElementById(id);
   }
-  function classget(class) {
-    return document.getElementsByClassName(class);
+  function classget(c) {
+    return document.getElementsByClassName(c);
   }
 })();
