@@ -4,7 +4,7 @@
       btn.height = Math.floor((window.innerHeight - 20) / classget("button").length - 20).toString() + "px";
       btn.width = (window.innerWidth - 20).toString() + "px";
     });
-  });
+  }, 0);
 
   function idget(id) {
     return document.getElementById(id);
