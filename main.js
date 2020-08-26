@@ -1,9 +1,15 @@
 (function(){
-  let buttons = idget("buttons");
-
-  buttons.style.bottom = "0px";
+  window.setInterval(function(){
+    classget("button").forEach(btn => {
+      btn.height = window.innerHeight / classget("button").length;
+      btn.width = window.innerWidth;
+    });
+  });
 
   function idget(id) {
     return document.getElementById(id);
+  }
+  function classget(class) {
+    return document.getElementsByClassName(class);
   }
 })();

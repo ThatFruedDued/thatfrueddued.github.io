@@ -1,0 +1,12 @@
+.button {
+  background-color: #008CBA;
+  border: 2px solid black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+}
